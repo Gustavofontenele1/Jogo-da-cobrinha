@@ -12,8 +12,8 @@ requestAnimationFrame(main)
 
 function main(currentTime) {
     if(gameOver) {
-        if(confirm('Você perdeu!')) {
-            location = '/'
+        if(confirm('Você perdeu! Deseja continuar ?')) {
+            location = '/index.html'
         }
         return
     }

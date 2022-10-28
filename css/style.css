@@ -4,21 +4,28 @@
 }
 
 body {
-    width: 100vw;
-    height: 100vh;
+ 
+    background-image: url(../img/snake.png);
+    background-color: #b2bd08;
+    background-size: 60vmin;
+    background-repeat: no-repeat;
+    align-items: center;
+    justify-content: center;
+    background-position: top;
+}
+
+.game {
 
     display: flex;
     justify-content: center;
-    align-items: center;
-
-    background-color: #ccc
+    margin-top: 13em;
 }
 
 #game-board {
     background-color: hsla(0, 0%, 14%);
 
-    width: 80vmin;
-    height: 80vmin;
+    width: 60vmin;
+    height: 60vmin;
 
     display: grid;
     grid-template-columns: repeat(21, auto);grid-template-rows: repeat(21, auto);
