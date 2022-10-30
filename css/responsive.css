@@ -1,0 +1,74 @@
+@media only screen and (max-device-width: 1920px){
+    
+    #game-board {
+        background-color: hsla(0, 0%, 14%);    
+        width: 60vmin;
+        height: 60vmin;    
+        display: grid;
+        grid-template-columns: repeat(21, auto);grid-template-rows: repeat(21, auto);
+        margin-top: 26.5rem;
+        
+    }
+
+    .game {
+
+        display: flex;
+        justify-content: center;
+       
+    }
+        
+    
+    footer {
+
+        display: flex;
+        justify-content: center;
+        margin-top: 1.5rem;
+    }
+    
+    footer a {
+
+        color: #404040;
+        margin-top: 1rem;
+        font-size: 25px;
+    }
+    
+
+}
+
+@media only screen and (max-device-width: 1366px){
+    
+    
+    #game-board {
+        background-color: hsla(0, 0%, 14%);    
+        width: 60vmin;
+        height: 60vmin;    
+        display: grid;
+        grid-template-columns: repeat(21, auto);grid-template-rows: repeat(21, auto);
+        margin-top: 17.8rem;        
+    }
+
+    .game {
+
+        display: flex;
+        justify-content: center;
+       
+    }
+
+    footer {
+
+        display: flex;
+        justify-content: center;
+        
+    }
+    
+    footer a {
+        color: #404040;
+        margin-top: 0.5rem;
+        font-size: 23px;
+    }
+    
+
+}
+
+
+
