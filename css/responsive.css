@@ -1,12 +1,8 @@
-@media only screen and (max-device-width: 1920px){
+@media (min-device-width: 1200px){
     
     #game-board {
-        background-color: hsla(0, 0%, 14%);    
-        width: 60vmin;
-        height: 60vmin;    
-        display: grid;
-        grid-template-columns: repeat(21, auto);grid-template-rows: repeat(21, auto);
-        margin-top: 26.5rem;
+        
+        margin-top: 17.5rem;
         
     }
 
@@ -39,12 +35,8 @@
     
     
     #game-board {
-        background-color: hsla(0, 0%, 14%);    
-        width: 60vmin;
-        height: 60vmin;    
-        display: grid;
-        grid-template-columns: repeat(21, auto);grid-template-rows: repeat(21, auto);
-        margin-top: 17.8rem;        
+        
+        margin-top: 11.8rem;        
     }
 
     .game {
@@ -63,8 +55,8 @@
     
     footer a {
         color: #404040;
-        margin-top: 0.5rem;
-        font-size: 23px;
+        margin-top: 0.1rem;
+        font-size: 20px;
     }
     
 
