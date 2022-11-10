@@ -18,7 +18,7 @@ body {
 
     display: flex;
     justify-content: center;
-    margin-top: 13em;
+   
 }
 
 #game-board {
@@ -37,4 +37,16 @@ body {
 
 .food {
     background-color: #d84242;
+}
+
+footer {
+
+    display: flex;
+    justify-content: center;
+    
+}
+
+footer a {
+    color: #404040;   
+   font-size: 18px;
 }

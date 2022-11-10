@@ -1,0 +1,66 @@
+@media (min-device-width: 1200px){
+    
+    #game-board {
+        
+        margin-top: 17.5rem;
+        
+    }
+
+    .game {
+
+        display: flex;
+        justify-content: center;
+       
+    }
+        
+    
+    footer {
+
+        display: flex;
+        justify-content: center;
+        margin-top: 1.5rem;
+    }
+    
+    footer a {
+
+        color: #404040;
+        margin-top: 1rem;
+        font-size: 25px;
+    }
+    
+
+}
+
+@media only screen and (max-device-width: 1366px){
+    
+    
+    #game-board {
+        
+        margin-top: 11.8rem;        
+    }
+
+    .game {
+
+        display: flex;
+        justify-content: center;
+       
+    }
+
+    footer {
+
+        display: flex;
+        justify-content: center;
+        
+    }
+    
+    footer a {
+        color: #404040;
+        margin-top: 0.1rem;
+        font-size: 20px;
+    }
+    
+
+}
+
+
+
